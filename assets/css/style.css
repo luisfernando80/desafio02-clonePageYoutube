@@ -52,6 +52,8 @@ body {
   display: flex;
   gap: 2rem;
   padding: 2.8rem 4rem;
+  max-width: 144rem;
+  margin: 0 auto;
 
   & .container-watching {
     display: flex;
@@ -157,7 +159,7 @@ button {
 aside {
   background-color: #fff;
   padding: 1rem;
-  width: 100%;
+  width: max-content;
   border-radius: 0.6rem;
 
   /* width: 37.2rem; */
